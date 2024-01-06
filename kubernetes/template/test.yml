@@ -1,0 +1,180 @@
+  name: order
+  type: Deployment
+  
+  name: order
+  type: Service
+  
+  name: delivery
+  type: Deployment
+  
+  name: 
+  type: Service
+  
+  name: product
+  type: Deployment
+  
+  name: 
+  type: Service
+  
+  name: ingress
+  type: Ingress
+  
+  name: data
+  type: PersistentVolumeClaim
+  
+  name: 
+  type: StorageClass
+  
+  name: 
+  type: PersistentVolume
+  
+  name: 
+  type: CronJob
+  
+  name: o-data
+  type: PersistentVolumeClaim
+  
+  name: d-data
+  type: PersistentVolumeClaim
+  
+  name: p-data
+  type: PersistentVolumeClaim
+  
+  name: mall-gateway
+  type: Gateway
+  
+  name: canary
+  type: VirtualService
+  
+  name: 
+  type: Gateway
+  
+  name: drule-order
+  type: DestinationRule
+  
+  name: v2
+  type: DestinationRuleSubset
+  
+  name: v1
+  type: DestinationRuleSubset
+  
+  name: vs-order
+  type: VirtualService
+  
+  name: vs-delivery
+  type: VirtualService
+  
+  name: vs-product
+  type: VirtualService
+  
+  name: vs-order
+  type: VirtualService
+  
+  name: 
+  type: DestinationRule
+  
+  name: v1
+  type: DestinationRuleSubset
+  
+  name: main-gw
+  type: Gateway
+  
+  name: drule
+  type: DestinationRule
+  
+  name: v2
+  type: DestinationRuleSubset
+  
+  name: v1
+  type: DestinationRuleSubset
+  
+  name: 
+  type: 
+  
+  name: v1
+  type: DestinationRuleSubset
+  
+  name: v2
+  type: DestinationRuleSubset
+  
+  name: v3
+  type: DestinationRuleSubset
+  
+  name: vsvc-order
+  type: VirtualService
+  
+  name: vsvc-delivery
+  type: VirtualService
+  
+  name: 
+  type: 
+  
+  name: 
+  type: DestinationRule
+  
+  name: v1
+  type: DestinationRuleSubset
+  
+  name: main-gw
+  type: Gateway
+  
+  name: 
+  type: Gateway
+  
+  name: drule
+  type: DestinationRule
+  
+  name: v2
+  type: DestinationRuleSubset
+  
+  name: v1
+  type: DestinationRuleSubset
+  
+  name: 
+  type: DestinationRule
+  
+  name: v1
+  type: DestinationRuleSubset
+  
+  name: drule-delivery
+  type: DestinationRule
+  
+  name: v1
+  type: DestinationRuleSubset
+  
+  name: v2
+  type: DestinationRuleSubset
+  
+  name: vsvc-product
+  type: VirtualService
+  
+  name: 
+  type: Gateway
+  
+  name: drule-product
+  type: DestinationRule
+  
+  name: v2
+  type: DestinationRuleSubset
+  
+  name: v1
+  type: DestinationRuleSubset
+  
+  name: v3
+  type: DestinationRuleSubset
+  
+  name: v4
+  type: DestinationRuleSubset
+  
+  name: v2
+  type: DestinationRuleSubset
+  
+  name: v1
+  type: DestinationRuleSubset
+  
+  name: 
+  type: Ingress
+  
+  name: 
+  type: HorizontalPodAutoscaler
+  
